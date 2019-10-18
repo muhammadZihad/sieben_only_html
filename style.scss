@@ -1,0 +1,566 @@
+$primary: #225693;
+$secondary: #6B6B6B;
+$third:#3484E0;
+
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Lato', sans-serif;
+}
+
+.top_Bar {
+    background: #225693;
+
+    .top-bar {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 500;
+        color: white;
+        padding: 0;
+
+        p {
+            margin: 5px 0;
+
+            i {
+                cursor: pointer;
+                transition: all 0.3s;
+                margin-left: 3px;
+                font-weight: 400;
+                font-size: 1.3rem;
+            }
+
+            i:hover {
+                color: #81bbff;
+            }
+        }
+    }
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #225693;
+    font-weight: 500;
+    padding: 6px 10px;
+    transition: all 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link.custom-btn {
+    background: #225693;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #225693;
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.custom-btn:hover {
+    color: #225693;
+    background: #fff;
+}
+
+.navBar {
+    background: #fff;
+    box-shadow: 0 5px 5px -5px #333;
+
+    .container {
+        padding: 0;
+
+        nav {
+            padding: 10px 0;
+            background: transparent;
+        }
+    }
+}
+
+.container-fluid.hero-img .row {
+    min-height: 90vh;
+}
+
+.hero {
+    text-align: center;
+    display: inline-block;
+    margin: 10% auto 0 auto;
+
+    p {
+        font-size: 3.4rem;
+        color: white;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    .btn {
+        font-size: 1.2rem;
+        color: white;
+        background: #3484E0;
+        padding: 10px 20px;
+        transition: all 0.3s;
+    }
+
+    .btn:hover {
+        background: $primary;
+    }
+}
+
+.template-title.text-center h2 {
+    margin: 70px 0 55px 0;
+}
+
+.my-cards {
+    margin-bottom: 75px;
+}
+
+.portfolio-item {
+    height: 200px;
+    background: #f9f9f9;
+    box-shadow: 0px 35px 66px rgba(25, 25, 25, 0.09);
+
+    i {
+        font-size: 3rem;
+        margin: 15px 0;
+        color: #225693;
+    }
+
+    .portfolio-details {
+
+        h5 {
+            margin-bottom: 8px 0;
+        }
+    }
+}
+
+.wh {
+    color: #fff;
+    margin: 70px 0;
+    font-size: 2.2rem;
+}
+
+.gh {
+    color: #6B6B6B;
+    font-size: 3rem;
+}
+
+.hero2-text {
+    margin: 40px auto;
+    color: #fff;
+
+    h1 {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-weight: 300;
+    }
+}
+
+.side-image {
+    max-height: 450px;
+}
+
+.side-image2 {
+    max-height: 300px;
+    border-radius: 30px;
+    box-shadow: -15px 12px 18px 1px rgba(0, 0, 0, 0.5);
+}
+
+.man-2 {
+    font-size: 18px;
+    margin: 60px 0;
+
+    ul {
+        margin: 30px 0;
+
+        li {
+            list-style: none;
+            margin: 10px 0;
+
+            i {
+                margin-right: 20px;
+                color: $third;
+            }
+        }
+    }
+}
+
+.man-1 {
+    background: $primary;
+
+    div.row {
+        width: 75%;
+        margin: 0 auto;
+        padding: 70px 0;
+
+        div.col-md-7 {
+            color: white;
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            p {
+                padding-top: 20px;
+                line-height: 35px;
+            }
+        }
+    }
+
+}
+
+
+.footer {
+    background: #001D48;
+
+    .row {
+        padding: 55px;
+        color: white;
+
+        h3,
+        h4 {
+            text-transform: uppercase;
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            padding-bottom: 15px;
+            font-weight: 500;
+        }
+
+        h4 {
+            padding-bottom: 8px;
+            margin: 0;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        p {
+            padding-bottom: 8px;
+            margin: 0;
+            font-weight: 300;
+        }
+
+        i {
+            margin-right: 10px;
+            font-size: 0.6rem;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                font-weight: 300;
+                margin: 0;
+                padding-bottom: 8px;
+
+                a,
+                i {
+                    color: #E3E3E3;
+                }
+            }
+        }
+    }
+}
+
+// ==========================
+// ===================
+// ===== Home =========
+// =====================
+// =======================
+
+
+.container-fluid.hero-other {
+    height: 40vh;
+
+    .row {
+        height: 100%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    p {
+        font-size: 3.4rem;
+        color: white;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+}
+
+.maps {
+    padding: 60px 0 60px 30px;
+
+    color: $primary;
+
+    h1 {
+        font-weight: 500;
+    }
+
+    p {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .gmap_canvas {
+        border-radius: 30px;
+        box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        height: 300px;
+        width: 526px;
+        border-radius: 30px;
+    }
+
+    i {
+        margin-right: 10px;
+    }
+}
+
+
+.contact {
+    background: $primary;
+    padding: 60px 0;
+
+    .muted {
+        color: #9e9e9e;
+    }
+
+    .form {
+        width: 70%;
+        text-align: center;
+
+        form {
+            padding: 15px;
+            background: $third;
+            border-radius: 10px;
+
+            button {
+                background: #225693;
+            }
+        }
+    }
+
+    .text {
+        padding-left: 110px;
+        color: #fff;
+
+        h1 {
+            padding-bottom: 10px;
+            margin: 0;
+        }
+
+        i {
+            margin-right: 15px;
+        }
+
+        p {
+            font-weight: 400;
+        }
+    }
+}
+
+// ------------------
+// -----------------
+// -------contact------
+// ----------
+// ---------------
+
+.container-fluid.hero-other.hero_other2 {
+    min-height: 60vh;
+
+    .row {
+        height: 70%;
+    }
+
+    .banner-text {
+        height: 30%;
+        background: rgba(52, 132, 224, 0.55);
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: center;
+        padding: 0 20% 0 20%;
+    }
+}
+
+.price {
+    .text {
+        text-align: center;
+        font-size: 2rem;
+        margin-top: 30px;
+
+        span {
+            padding-right: 10px;
+            color: $third;
+        }
+    }
+
+    .header {
+        margin-bottom: 30px;
+        color: $secondary;
+    }
+
+    padding: 60px 0;
+
+
+    .col-md-1 {
+        display: flex;
+        font-size: 4rem;
+        color: $third;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        box-shadow: 0px 35px 66px rgba(25, 25, 25, 0.09);
+        border: none;
+        color: $third;
+    }
+
+    .card-body {
+        small {
+            font-size: 1.5rem;
+        }
+
+        p {
+            font-weight: bold;
+            margin: 0;
+        }
+
+        .hidden {
+            opacity: 0;
+        }
+    }
+
+    .card-header,
+    .card-footer {
+        background: $third;
+        color: #fff;
+    }
+
+    .card-header {
+        font-size: 1.2rem;
+    }
+
+    i {
+        font-size: 6rem;
+        margin: 15px 0;
+    }
+
+
+}
+
+.advantage {
+    background: $primary;
+    color: #fff;
+    padding: 60px 0;
+
+    .row {
+        width: 70%;
+        margin: 0 auto;
+
+        img {
+            max-height: 260px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+
+            i {
+                margin-right: 15px
+            }
+        }
+
+    }
+}
+
+// --------------------
+// ---------------
+// -------Eilen------
+// ---------------
+// ------------------------
+
+
+.rabit {
+    background: $primary;
+
+    .row {
+        width: 70%;
+        margin: 0 auto;
+        padding: 60px 0 30px 0;
+        font-size: 1.2rem;
+        color: white;
+    }
+}
+
+.container {
+    .header {
+        color: $secondary;
+        text-align: center;
+        margin: 60px 0 40px 0;
+
+        h1 {
+            margin: 0 auto;
+        }
+    }
+}
+
+.alert-text {
+    padding: 30px 20% 60px 20%;
+    font-size: 0.7rem;
+    color: #383838;
+    text-align: center;
+}
+
+.manual {
+
+    .col-mdd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+        width: 50px;
+
+        i {
+            color: $primary;
+            font-size: 2rem;
+        }
+    }
+
+
+
+    .col-md-2 {
+        padding: 0;
+        font-weight: 600;
+
+        i,
+        h4 {
+            color: $third;
+        }
+
+        h4 {
+            font-weight: 600;
+        }
+
+        i {
+            font-size: 4rem;
+            margin-bottom: 15px;
+        }
+    }
+}
